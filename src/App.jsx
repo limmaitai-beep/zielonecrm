@@ -77,9 +77,7 @@ export default function App() {
     <div className="app-wrap">
       <div className="topbar">
         <div className="logo">
-          <div className="logo-icon">
-            <i className="ti ti-leaf" aria-hidden="true"></i>
-          </div>
+          <img src="/logo.png" alt="Zielone Hobby Garden" className="logo-img" />
           <div>
             <div className="logo-text">Zielone Hobby Garden</div>
             <div className="logo-sub">CRM — zarządzanie klientami</div>

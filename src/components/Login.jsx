@@ -18,9 +18,7 @@ export default function Login({ onSuccess }) {
   return (
     <div className="login-screen">
       <form className="login-card" onSubmit={handleSubmit}>
-        <div className="login-icon">
-          <i className="ti ti-leaf" aria-hidden="true"></i>
-        </div>
+        <img src="/logo.png" alt="Zielone Hobby Garden" className="login-logo-img" />
         <h1>Zielone Hobby Garden</h1>
         <p>Wpisz hasło dostępu do CRM</p>
         {error && <div className="login-error">{error}</div>}
